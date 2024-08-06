@@ -1,0 +1,30 @@
+{
+	"name": "hojalatheef/sitepackageone-template",
+	"type": "typo3-cms-extension",
+	"description": "Site package for sitepackageone distribution",
+	"license": "GPL-2.0-or-later",
+	"keywords": ["typo3", "TYPO3 CMS", "site", "package", "template"],
+	"homepage": "https://jweiland.net",
+	"authors": [
+		{
+			"name": "Hoja Mustaffa Abdul Latheef",
+			"email": "projects@jweiland.net"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^13.2"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload": {
+		"psr-4": {
+			"HojaLatheef\\SitePackageOne\\": "Classes"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "sitepackageone"
+		}
+	}
+}

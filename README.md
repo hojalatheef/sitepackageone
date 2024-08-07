@@ -1,4 +1,4 @@
-# SitePackageOne Distribution
+# SitePackageOne TYPO3 Extension
 
 SitePackageOne is a TYPO3 extension designed to provide a comprehensive one-page
 website template. It includes pre-configured templates, TypoScript setup, and
@@ -11,29 +11,11 @@ custom content elements tailored for a modern, responsive one-page site.
 
 ## Installation
 
-### 1. Clone the Repository
-
 ```sh
-git clone git@github.com:hojalatheef/sitepackageone-distribution.git
+composer req hojalatheef/sitepackageone
 ```
 
-### 2. Install Dependencies
-
-If the extension has any PHP dependencies, install them using Composer:
-
-```sh
-cd sitepackageone
-composer install
-```
-
-### 3. Activate the Extension
-
-Log in to the TYPO3 backend and activate the `sitepackageone` extension:
-
-- Go to "Admin Tools" > "Extensions".
-- Find `sitepackageone` in the list and activate it.
-
-### 4. Include TypoScript Template
+### 2. Include TypoScript Template
 
 1. **Go to Template Module**:
     - Navigate to "WEB" > "Template".
@@ -48,7 +30,7 @@ Log in to the TYPO3 backend and activate the `sitepackageone` extension:
     - In the "Includes" tab, add `sitepackageone` to the "Include static (from
       extensions)" field.
 
-### 5. Set Up Root Page
+### 3. Set Up Root Page
 
 Ensure you have a root page created in the "WEB" > "Page" module.
 
@@ -56,7 +38,7 @@ Ensure you have a root page created in the "WEB" > "Page" module.
   selecting "Edit".
 - In the "Behavior" tab, check the "Use as Root Page" option.
 
-### 6. Customize Your One-Page Template
+### 4. Customize Your One-Page Template
 
 #### Create Content Elements
 
@@ -70,7 +52,7 @@ Ensure you have a root page created in the "WEB" > "Page" module.
   in `EXT:sitepackageone/Resources/Private/Templates`.
 - Customize these templates to fit your design needs.
 
-### 7. Add Custom Styles and Scripts
+### 5. Add Custom Styles and Scripts
 
 #### CSS and JS Files
 

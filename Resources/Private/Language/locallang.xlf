@@ -33,6 +33,9 @@
 			<trans-unit id="showPageTitle" resname="showPageTitle">
 				<source>Page title as heading:Displays the title of a subpage as the H2 heading of the section.</source>
 			</trans-unit>
+			<trans-unit id="section_page_type" resname="section_page_type">
+				<source>Section</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -1,4 +1,12 @@
-# SitePackageOne TYPO3 Extension
+# TYPO3 Extension `sitepackageone`
+[![Packagist][packagist-logo-stable]][extension-packagist-url]
+[![Latest Stable Version][extension-build-shield]][extension-ter-url]
+[![License][LICENSE_BADGE]][extension-packagist-url]
+[![Total Downloads][extension-downloads-badge]][extension-packagist-url]
+[![Monthly Downloads][extension-monthly-downloads]][extension-packagist-url]
+[![TYPO3 12.4][TYPO3-shield]][TYPO3-12-url]
+
+![Build Status](https://github.com/hojalatheef/sitepackageone/actions/workflows/ci.yml/badge.svg)
 
 SitePackageOne is a TYPO3 extension designed to provide a comprehensive one-page
 website template. It includes pre-configured templates, TypoScript setup, and
@@ -94,29 +102,27 @@ page.includeJSFooter {
    to [http://sitepackageone.ddev.site/typo3](http://sitepackageone.ddev.site/typo3)
    and log in with your admin credentials.
 
-## Contributing
-
-We welcome contributions to improve SitePackageOne. Please submit issues and
-pull requests on
-the [GitHub repository](https://github.com/hojalatheef/sitepackageone-distribution.git).
-
 ## License
 
 SitePackageOne is released under the MIT License. See the [LICENSE](LICENSE)
 file for more details.
 
----
+<!-- MARKDOWN LINKS & IMAGES -->
 
-With SitePackageOne, you can quickly set up a beautiful one-page website using
-TYPO3. Enjoy!
+[extension-build-shield]: https://poser.pugx.org/hojalatheef/sitepackageone/v/stable.svg?style=for-the-badge
 
-```
+[extension-downloads-badge]: https://poser.pugx.org/hojalatheef/sitepackageone/d/total.svg?style=for-the-badge
 
-### Key Points:
+[extension-monthly-downloads]: https://poser.pugx.org/hojalatheef/sitepackageone/d/monthly?style=for-the-badge
 
-- The `README.md` covers the installation requirements and steps for setting up the `sitepackageone` extension within a TYPO3 project.
-- It includes detailed instructions for cloning the repository, installing dependencies, and activating the extension.
-- It provides guidance on including TypoScript, setting up the root page, and customizing templates.
-- It includes instructions for local development with DDEV, as well as sections for contributing and licensing.
+[extension-ter-url]: https://extensions.typo3.org/extension/sitepackageone/
 
-Adjust the repository URL and other specific details to match your project's setup.
+[extension-packagist-url]: https://packagist.org/packages/hojalatheef/sitepackageone/
+
+[packagist-logo-stable]: https://img.shields.io/badge/--grey.svg?style=for-the-badge&logo=packagist&logoColor=white
+
+[TYPO3-12-url]: https://get.typo3.org/version/13
+
+[TYPO3-shield]: https://img.shields.io/badge/TYPO3-13.2-green.svg?style=for-the-badge&logo=typo3
+
+[LICENSE_BADGE]: http://poser.pugx.org/hojalatheef/sitepackageone/license?style=for-the-badge

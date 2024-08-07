@@ -7,6 +7,8 @@ sitepackageone.cacheLifeTime = 21600
 siteonepackage.concatenateJavaScript = 1
 # cat=SitePackageOne/sitepackageone; type=int; label= Compress JavaScript Assets
 siteonepackage.compressJavaScript = 1
+# cat=SitePackageOne/sitepackageone; type=int; label= Show Page Title
+sitepackageone.showPageTitle = 1
 
 
 

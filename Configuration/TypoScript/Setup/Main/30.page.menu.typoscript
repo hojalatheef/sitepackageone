@@ -1,0 +1,12 @@
+# Page Menu
+page.10.dataProcessing {
+  # pages menu
+  dataProcessing.40 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+  dataProcessing.40 {
+    levels = 1
+    excludeDoktypes = 199,254
+    as = pagesMenu
+    expandAll = 1
+    titleField = nav_title // title
+  }
+}

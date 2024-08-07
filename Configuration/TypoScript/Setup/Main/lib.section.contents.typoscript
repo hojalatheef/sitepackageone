@@ -1,0 +1,43 @@
+lib.section.contents = COA
+lib.section.contents {
+  ## Content from Homepage
+  10 = CONTENT
+  10 {
+    table = tt_content
+    select {
+      pidInList = {$sitepackageone.rootPageId}
+      orderBy = sorting
+      where = colPos = 0
+    }
+    stdWrap {
+      if.isLessThan.field = doktype
+      if.value = 3
+      wrap = <section id="{field:style_id}" class="content {field:style_class}"><div class="container">|</div></section>
+      wrap.insertData = 1
+      innerWrap = <h2 class="sectionTitle">{field:nav_title // field:title}</h2>|
+      innerWrap.insertData = 1
+      innerWrap.if.isTrue = {$sitepackageone.showPageTitle}
+    }
+  }
+  ## Contents from subpages
+  20 = CONTENT
+  20 {
+    table = pages
+    select.orderBy = sorting
+    select.where = doktype = 369
+
+    renderObj = COA
+    renderObj {
+      10 = CONTENT
+      10 {
+        table = tt_content
+        select {
+          pidInList.field = uid
+          orderBy = sorting
+          where = colPos = 0
+        }
+        stdWrap < lib.section.contents.10.stdWrap
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+page.10 {
+  # site config
+  dataProcessing.5 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
+  dataProcessing.5.as = site
+  # page media files
+  dataProcessing.10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+  dataProcessing.10.references.fieldName = media
+  # main menu
+  dataProcessing.20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+  dataProcessing.20 {
+    table = tt_content
+    pidInList.field = uid
+    where = colPos=0 AND sectionIndex=1
+    orderBy = sorting
+    as = sectionMenu
+  }
+  # language menu
+  dataProcessing.30 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+  dataProcessing.30 {
+    languages = auto
+    as = languageMenu
+  }
+}

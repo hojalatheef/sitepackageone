@@ -1,5 +1,5 @@
 mod.web_layout.BackendLayouts {
-  home {
+  onepage {
     title = OnePageSection
     config {
       backend_layout {
@@ -26,8 +26,8 @@ mod.web_layout.BackendLayouts {
       }
     }
   }
-  sub {
-    title = InnerPageTemplate
+  subpage {
+    title = SubPageTemplate
     config {
       backend_layout {
         colCount = 1

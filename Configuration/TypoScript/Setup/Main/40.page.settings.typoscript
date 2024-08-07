@@ -1,0 +1,49 @@
+page.10 {
+  settings {
+    # CSS files
+    mainCss = {$sitepackageone.mainCss}
+    subpagesCss = {$sitepackageone.subpagesCss}
+    customCss = {$sitepackageone.customCss}
+
+
+    # CSS variables for Resources/Private/Partials/CssSettings.html
+    mainFontFamily = {$sitepackageone.mainFontFamily}
+    textColor = {$sitepackageone.textColor}
+    bodyBg = {$sitepackageone.bodyBg}
+    menuBg = {$sitepackageone.menuBg}
+    pageWidth = {$sitepackageone.pageWidth}
+    contentWidth = {$sitepackageone.contentWidth}
+    subpageWidth = {$sitepackageone.subpageWidth}
+    accentColor = {$sitepackageone.accentColor}
+    bodyBackground = {$sitepackageone.bodyBackground}
+    bgLight = {$sitepackageone.bgLight}
+    textLight = {$sitepackageone.textLight}
+    bgDark = {$sitepackageone.bgDark}
+    textDark = {$sitepackageone.textDark}
+
+    # dark mode override
+    darkModeOn = 1
+    dmTextColor = {$sitepackageone.dmTextColor}
+    dmBodyBg = {$sitepackageone.dmBodyBg}
+    dmMenuBg = {$sitepackageone.dmMenuBg}
+    dmAccentColor = {$sitepackageone.dmAccentColor}
+    dmBodyBackground = {$sitepackageone.dmBodyBackground}
+    dmBgLight = {$sitepackageone.dmBgLight}
+    dmTextLight = {$sitepackageone.dmTextLight}
+    dmBgDark = {$sitepackageone.dmBgDark}
+    dmTextDark = {$sitepackageone.dmTextDark}
+
+    # menu
+    menuType = {$sitepackageone.menuType}
+    mobilemenuContentPage = {$sitepackageone.mobilemenuContentPage}
+
+    # social links
+    socialLinksEnabled = {$sitepackageone.socialLinksEnabled}
+    linkedinUrl = {$sitepackageone.linkedinUrl}
+    twitterUrl = {$sitepackageone.twitterUrl}
+    instagramUrl = {$sitepackageone.instagramUrl}
+    facebookUrl = {$sitepackageone.facebookUrl}
+    youtubeUrl = {$sitepackageone.youtubeUrl}
+    githubUrl = {$sitepackageone.githubUrl}
+  }
+}

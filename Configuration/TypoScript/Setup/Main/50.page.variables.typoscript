@@ -1,0 +1,24 @@
+page.10 {
+  variables {
+    # logo settings
+    logo = SVG
+    logo.renderMode = inline
+    logo.src = {$sitepackageone.logoFile}
+    # needed for if home is not in page tree root level
+    rootPageId = TEXT
+    rootPageId.value = {$sitepackageone.rootPageId}
+    siteBase = TEXT
+    siteBase.data = siteLanguage:base
+    contentFooter = COA
+    contentFooter {
+      10 = LOAD_REGISTER
+      10.maxImageWidth = {$oeftemplate.pageWidth}
+      20 < styles.content.get
+      20.select.where = colPos = 1
+      20.slide = -1
+      30 = RESTORE_REGISTER
+    }
+    currentURL = TEXT
+    currentURL.data = getIndpEnv:TYPO3_REQUEST_URL
+  }
+}

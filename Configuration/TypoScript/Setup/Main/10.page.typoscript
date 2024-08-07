@@ -1,0 +1,33 @@
+page = PAGE
+page {
+  typeNum = 0
+  meta {
+    viewport.value = width=device-width, initial-scale=1.0
+    keywords.data = page:keywords
+    description.data = page:description
+  }
+  10 = FLUIDTEMPLATE
+  10 {
+    partialRootPaths.10 = EXT:sitepackageone/Resources/Private/Partials/
+    partialRootPaths.20 = {$sitepackageone.partialRootPath}
+
+    templateRootPaths.10 = EXT:sitepackageone/Resources/Private/Templates/
+    templateRootPaths.20 = {$sitepackageone.templateRootPath}
+
+    templateName.stdWrap.cObject = CASE
+    templateName.stdWrap.cObject {
+      key.data = pagelayout
+      key.data = levelfield:-1, backend_layout_next_level, slide
+      key.override.field = backend_layout
+      # Default is OnePage
+      default = TEXT
+      default.value = OnePage
+      # For OnePage
+      pagets__onepage = TEXT
+      pagets__onepage.value = OnePage
+      # For SubPage
+      pagets__subpage = TEXT
+      pagets__subpage.value = SubPage
+    }
+  }
+}

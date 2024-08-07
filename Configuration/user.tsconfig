@@ -1,2 +1,5 @@
 # To display the new section page type in wizard
 options.pageTree.doktypesToShowInNewPageDragArea := addToList(369)
+
+# To display page id in tree
+options.pageTree.showPageIdWithTitle = 1

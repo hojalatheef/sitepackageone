@@ -7,7 +7,7 @@ custom content elements tailored for a modern, responsive one-page site.
 ## Requirements
 
 - TYPO3 v13
-- PHP 7.4 or higher
+- PHP 8.2 or higher
 
 ## Installation
 

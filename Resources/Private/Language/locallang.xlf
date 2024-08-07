@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext"
+				original="EXT:sitepackageone/Resources/Private/Language/locallang.xlf" date="2024-07-18T14:45:32Z"
+				product-name="sitepackageone">
+		<header/>
+		<body>
+			<trans-unit id="style_id" resname="style_id">
+				<source>CSS ID</source>
+			</trans-unit>
+			<trans-unit id="style_class" resname="style_class">
+				<source>CSS class</source>
+			</trans-unit>
+			<trans-unit id="palettename" resname="palettename">
+				<source>Onepage Template</source>
+			</trans-unit>
+			<trans-unit id="rootPageId" resname="rootPageId">
+				<source>RootPage ID: ID of the homepage of the website</source>
+			</trans-unit>
+			<trans-unit id="metaPageId" resname="metaPageId">
+				<source>MetaNav ID: ID of the starting page of the meta navigation.</source>
+			</trans-unit>
+			<trans-unit id="logoText" resname="logoText">
+				<source>Logo text for the header area:If no image is provided, this text is displayed. If an image is provided,
+					this text is used for the alt and title attributes.
+				</source>
+			</trans-unit>
+			<trans-unit id="logoFile" resname="logoFile">
+				<source>Logo file:Path to a logo file, e.g. fileadmin/logo.png or
+					EXT:sitepackageone/Resources/Public/Images/logo.png
+				</source>
+			</trans-unit>
+			<trans-unit id="showPageTitle" resname="showPageTitle">
+				<source>Page title as heading:Displays the title of a subpage as the H2 heading of the section.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

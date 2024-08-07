@@ -1,0 +1,2 @@
+# To display the new section page type in wizard
+options.pageTree.doktypesToShowInNewPageDragArea := addToList(369)

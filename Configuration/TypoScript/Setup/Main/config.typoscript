@@ -1,0 +1,13 @@
+config {
+  cache_period = {$siteonepackage.cacheLifeTime}
+  absRefPrefix = auto
+  forceAbsoluteUrls = 1
+  sendCacheHeaders=1
+  spamProtectEmailAddresses = -1
+  spamProtectEmailAddresses_atSubst = @
+  spamProtectEmailAddresses_lastDotSubst = .
+  concatenateJs = {$siteonepackage.concatenateJavaScript}
+  compressJs = {$siteonepackage.compressJavaScript}
+  moveJsFromHeaderToFooter = 1
+  removeDefaultJS =
+}

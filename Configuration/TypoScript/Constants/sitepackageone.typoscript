@@ -1,0 +1,109 @@
+# customsubcategory=sitepackageone=SitePackageOne Setup
+# cat=SitePackageOne/sitepackageone; type=string; label= Root page ID, if root is a sub page
+sitepackageone.rootPageId =
+# cat=SitePackageOne/sitepackageone; type=int; label= Cache max age in seconds (default 6 hours)
+sitepackageone.cacheLifeTime = 21600
+# cat=SitePackageOne/sitepackageone; type=int; label= Concatenate JavaScript Assets
+siteonepackage.concatenateJavaScript = 1
+# cat=SitePackageOne/sitepackageone; type=int; label= Compress JavaScript Assets
+siteonepackage.compressJavaScript = 1
+
+
+
+# customsubcategory=sitepackageonestyles=SitePackageOne styles & design
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=Main CSS file
+sitepackageone.mainCss = EXT:sitepackageone/Resources/Public/Css/default.css
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=Sub pages CSS file
+sitepackageone.subpagesCss = EXT:sitepackageone/Resources/Public/Css/Pages/sub-page.css
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=Custom CSS file for your own changes
+sitepackageone.customCss = EXT:sitepackageone/Resources/Public/Css/custom.css
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=SVG logo file location
+sitepackageone.logoFile = EXT:sitepackageone/Resources/Public/Images/brightside_logo.svg
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=Menu & Header font file
+sitepackageone.header-font-file = EXT:sitepackageone/Resources/Public/Fonts/fira-sans-extra-condensed-v5-latin-500.woff2
+# cat=SitePackageOne/sitepackageonestyles; type=string; label=Main font family
+sitepackageone.mainFontFamily = sans-serif
+# cat=SitePackageOne/sitepackageonestyles; type=boolean; label= Use pages menu instead of sections
+sitepackageone.menuType =
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Default text color: Body, headers, main menu
+sitepackageone.textColor = #111111
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Default background color
+sitepackageone.bodyBg = #ffffff
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Accent color:Link color & button background
+sitepackageone.accentColor = #db0500
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Light text:Used on dark background or if set in section settings
+sitepackageone.textLight = #ffffff
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Dark text:Used on light background or if set in section settings
+sitepackageone.textDark = #000000
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Light section background
+sitepackageone.bgLight = #f0f0f0
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Dark section background
+sitepackageone.bgDark = #353535
+# cat=SitePackageOne/sitepackageonestyles; type=color; label= Header background
+sitepackageone.menuBg = rgba(255,255,255,0.9)
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Maximum home page width (px, em or %)
+sitepackageone.pageWidth = 100%
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Maximum home page content width (px, em or %)
+sitepackageone.contentWidth = 62rem
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Maximum sub page content width (px, em or %)
+sitepackageone.subpageWidth = 48rem
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Mobile menu content page ID (shows elements from this page)
+sitepackageone.mobilemenuContentPage =
+# cat=SitePackageOne/sitepackageonestyles; type=int; label= Maximum image width (px)
+styles.content.textmedia.maxW = 987
+# cat=SitePackageOne/sitepackageonestyles; type=int; label= Maximum image width in text (px)
+styles.content.textmedia.maxWInText = 400
+# cat=SitePackageOne/sitepackageonestyles; type=int; label= Enable socail links in menu
+sitepackageone.socialLinksEnabled = 0
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= LinkedIn URL
+sitepackageone.linkedinUrl =
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Twitter URL
+sitepackageone.twitterUrl =
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Instagram URL
+sitepackageone.instagramUrl =
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Facebook URL
+sitepackageone.facebookUrl =
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Youtube URL
+sitepackageone.youtubeUrl =
+# cat=SitePackageOne/sitepackageonestyles; type=string; label= Github URL
+sitepackageone.githubUrl =
+
+# Template
+sitepackageone.partialRootPath = EXT:sitepackageone/Resources/Private/Partials/
+sitepackageone.templateRootPath = EXT:sitepackageone/Resources/Private/Templates/
+
+# Gallerycontent
+gallerycontent.imageWidth = 987
+gallerycontent.enableLightbox = 1
+gallerycontent.cssPriority = 0
+
+# Personnel
+personnel.cardImageWidth = 330
+personnel.cardImageHeight = 330
+personnel.cssPriority = 0
+
+# Pagelist
+pagelist.partialRootPaths = EXT:sitepackageone/Resources/Private/Partials/Pagelist/
+pagelist.cssPriority = 0
+pagelist.cardImageWidth = 583
+pagelist.cardImageHeight = 328
+
+# Favicon
+favicon.pngPath = EXT:sitepackageone/Resources/Public/Icons/Extension.png
+
+# Paginated processors
+paginatedprocessors.enableDefaultStyles = 1
+paginatedprocessors.cssFile = EXT:sitepackageone/Resources/Public/Css/Pages/pagination.css
+paginatedprocessors.cssPriority = 0
+
+# Containeritems
+containerItems.sectionScrollInEffect = slide-from-below
+
+# Youtubevideo
+youtubevideo.cssPriority = 0
+
+# Override for home page
+[tree.pagelayout == "pagets__home"]
+  styles.content.textmedia.maxW = 1628
+  gallerycontent.imageWidth = 1628
+[END]

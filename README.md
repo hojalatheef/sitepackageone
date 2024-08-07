@@ -14,7 +14,7 @@ custom content elements tailored for a modern, responsive one-page site.
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/hojalatheef/sitepackageone.git
+git clone git@github.com:hojalatheef/sitepackageone-distribution.git
 ```
 
 ### 2. Install Dependencies
@@ -116,7 +116,7 @@ page.includeJSFooter {
 
 We welcome contributions to improve SitePackageOne. Please submit issues and
 pull requests on
-the [GitHub repository](https://github.com/hojalatheef/sitepackageone.git).
+the [GitHub repository](https://github.com/hojalatheef/sitepackageone-distribution.git).
 
 ## License
 

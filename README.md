@@ -3,7 +3,7 @@
 [![Latest Stable Version][extension-build-shield]][extension-ter-url]
 [![Total Downloads][extension-downloads-badge]][extension-packagist-url]
 [![Monthly Downloads][extension-monthly-downloads]][extension-packagist-url]
-[![TYPO3 12.4][TYPO3-shield]][TYPO3-12-url]
+[![TYPO3 13.2][TYPO3-shield]][TYPO3-13-url]
 
 ![Build Status](https://github.com/hojalatheef/sitepackageone/actions/workflows/ci.yml/badge.svg)
 
@@ -120,6 +120,6 @@ file for more details.
 
 [packagist-logo-stable]: https://img.shields.io/badge/--grey.svg?style=for-the-badge&logo=packagist&logoColor=white
 
-[TYPO3-12-url]: https://get.typo3.org/version/13
+[TYPO3-13-url]: https://get.typo3.org/version/13
 
 [TYPO3-shield]: https://img.shields.io/badge/TYPO3-13.2-green.svg?style=for-the-badge&logo=typo3

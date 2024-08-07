@@ -1,4 +1,4 @@
-# SitePackageOne
+# SitePackageOne Distribution
 
 SitePackageOne is a TYPO3 extension designed to provide a comprehensive one-page
 website template. It includes pre-configured templates, TypoScript setup, and

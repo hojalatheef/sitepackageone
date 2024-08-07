@@ -1,5 +1,5 @@
 {
-	"name": "hojalatheef/sitepackageone-template",
+	"name": "hojalatheef/sitepackageone",
 	"type": "typo3-cms-extension",
 	"description": "Site package for sitepackageone distribution",
 	"license": "GPL-2.0-or-later",
